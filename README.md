@@ -83,10 +83,28 @@ Mode                 LastWriteTime         Length Name
 
 icacls .\app\permissions-test.txt
 
+###파일 및 디렉터리 권한 변경 실습
+
 읽기 권한 추가
 실행 명령어 :
 icacls .\app\permissions-test.txt /grant:r "$($env:USERDOMAIN)\$($env:USERNAME):(R)"
 
+### docker 설치 및 실행
+docker --version
+
+Docker version 29.9.2, build a82e528
+
+
+### wsl 설치 및 실행
+
+wsl --version
+WSL 버전: 3.0.3.0
+커널 버전: 6.18.54.1-1
+WSLg 버전: 1.0.79
+MSRDC 버전: 1.2.7391
+Direct3D 버전: 1.611.1-81528511
+DXCore 버전: 10.0.26100.1-240331-1435.ge-release
+Windows 버전: 10.0.26300.9711
 
 
 ## 5. 트러블슈팅
