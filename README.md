@@ -86,10 +86,12 @@ icacls .\app\permissions-test.txt
 ###파일 및 디렉터리 권한 변경 실습
 
 읽기 권한 추가
+
 실행 명령어 :
 icacls .\app\permissions-test.txt /grant:r "$($env:USERDOMAIN)\$($env:USERNAME):(R)"
 
 ### docker 설치 및 실행
+
 docker --version
 
 Docker version 29.9.2, build a82e528
@@ -251,9 +253,11 @@ Windows 버전: 10.0.26300.9711
 
 
 ### Ubuntu 컨테이너 실행
+
 명령어 실행값 :
 docker run -it --name codyssey-ubuntu-practice ubuntu:24.04 bash
-출력값:
+
+출력값 : 
 Unable to find image 'ubuntu:24.04' locally
 24.04: Pulling from library/ubuntu
 7a48b8f0e5c7: Pull complete
@@ -298,7 +302,8 @@ drwxr-xr-x  12 root root 4096 Oct 24 14:05 usr
 drwxr-xr-x  11 root root 4096 Oct 24 14:12 var
 
 폴더 권한 확인
-명령어 
+
+실행 명령어 :
 ls -l permission-test.txt permission-folder
 
 
