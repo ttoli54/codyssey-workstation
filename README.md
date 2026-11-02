@@ -64,6 +64,31 @@ git init
 Initialized empty Git repository
 ```
 
+### 터미널 기본 파일 관리 실습
+
+실행 명령어 : 
+```powershell
+New-Item -ItemType File .\app\permissions-test.txt
+```
+
+실행 결과 :
+디렉터리: C:\Users\User\desktop\codyssey-workstation\app
+
+
+Mode                 LastWriteTime         Length Name                                        
+----                 -------------         ------ ----                                        
+-a----      2026-11-02   오후 2:48              0 permissions-test.txt
+
+변경 전 권한 확인
+
+icacls .\app\permissions-test.txt
+
+읽기 권한 추가
+실행 명령어 :
+icacls .\app\permissions-test.txt /grant:r "$($env:USERDOMAIN)\$($env:USERNAME):(R)"
+
+
+
 ## 5. 트러블슈팅
 
 실습 중 발생한 오류와 해결 방법을 실제 경험을 바탕으로 기록합니다.
