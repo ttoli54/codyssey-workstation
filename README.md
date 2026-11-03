@@ -210,7 +210,10 @@ Server:
 실행 명령어 :
 docker run --rm hello-world
 
+
 실행 결과 값 :
+<img width="1223" height="648" alt="1" src="https://github.com/user-attachments/assets/4393f6e4-65c0-4efa-b26e-882c5fa3931f" />
+
  docker run --rm hello-world
 Unable to find image 'hello-world:latest' locally
 latest: Pulling from library/hello-world
@@ -258,6 +261,10 @@ Windows 버전: 10.0.26300.9711
 docker run -it --name codyssey-ubuntu-practice ubuntu:24.04 bash
 
 출력값 : 
+
+<img width="960" height="1015" alt="2" src="https://github.com/user-attachments/assets/5e9ea743-912f-4838-9bd4-7b260401549c" />
+
+
 Unable to find image 'ubuntu:24.04' locally
 24.04: Pulling from library/ubuntu
 7a48b8f0e5c7: Pull complete
@@ -306,7 +313,13 @@ drwxr-xr-x  11 root root 4096 Oct 24 14:12 var
 실행 명령어 :
 ls -l permission-test.txt permission-folder
 
+실행값 변경 전
+<img width="968" height="1026" alt="3" src="https://github.com/user-attachments/assets/cdcf6a91-b8e3-49ff-8356-e5e35f4f914b" />
+실행값 변경 후
+<img width="968" height="1029" alt="4" src="https://github.com/user-attachments/assets/a8a864f1-fe27-47ca-8953-23357b5d2160" />
 
+
+<img width="968" height="1028" alt="5" src="https://github.com/user-attachments/assets/134fd0c0-94a2-42dd-b273-18905d455016" />
 
 ## 5. 트러블슈팅
 
