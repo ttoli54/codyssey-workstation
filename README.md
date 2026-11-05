@@ -124,12 +124,55 @@ codyssey-workstation/
 ```
 
 ## 6. 실습 결과 및 증빙 자료
+### Git 저장소 초기화
 
-실습 화면과 결과를 캡처한 이미지입니다.
+실행 명령어:
 
-- `1.png` ~ `6.png`: 기본 개발 환경 및 Docker 실습 화면
-- `07-permission-before.png`: Linux 권한 변경 전
-- `08-permission-after.png`: Linux 권한 변경 후
+```powershell
+git init
+```
+
+실행 결과:
+
+```text
+Initialized empty Git repository
+```
+
+### 터미널 기본 파일 관리 실습
+
+실행 명령어 : 
+```powershell
+New-Item -ItemType File .\app\permissions-test.txt
+```
+
+실행 결과 :
+디렉터리: C:\Users\User\desktop\codyssey-workstation\app
+
+
+Mode                 LastWriteTime         Length Name                                        
+----                 -------------         ------ ----                                        
+-a----      2026-11-02   오후 2:48              0 permissions-test.txt
+
+변경 전 권한 확인
+
+icacls .\app\permissions-test.txt
+
+###파일 및 디렉터리 권한 변경 실습
+
+읽기 권한 추가
+
+실행 명령어 :
+icacls .\app\permissions-test.txt /grant:r "$($env:USERDOMAIN)\$($env:USERNAME):(R)"
+
+### docker 설치 및 실행
+
+docker --version
+
+Docker version 29.9.2, build a82e528
+
+실행 명령어 : 
+docker info
+
 
 ## 7. 마무리
 
