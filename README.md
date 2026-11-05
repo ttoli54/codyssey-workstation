@@ -124,6 +124,21 @@ codyssey-workstation/
 ```
 
 ## 6. 실습 결과 및 증빙 자료
+### Git 설치 확인
+
+실행 명령어:
+
+```powershell
+git --version
+```
+
+실행 결과:
+
+```text
+git version 2.56.0.windows.4
+```
+
+
 ### Git 저장소 초기화
 
 실행 명령어:
