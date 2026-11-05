@@ -188,6 +188,7 @@ Docker version 29.9.2, build a82e528
 실행 명령어 : 
 docker info
 
+<img width="1223" height="648" alt="1" src="https://github.com/user-attachments/assets/4393f6e4-65c0-4efa-b26e-882c5fa3931f" />
 
 ## 7. 마무리
 
