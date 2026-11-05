@@ -1,0 +1,4 @@
+# Captured: 2026-11-05T16:13:06+09:00
+# Run ID: 20261105161306346
+PS> docker run -d --name codyssey-bind-20261105161306346 -p 8081:80 --mount type=bind,source=<evidence>/bind-mount-live,target=/usr/share/nginx/html nginx:alpine
+2cd36ff2b8ac8d7d9b0bf5424324bbadc9a5ad12d253cff9035d524b59946373

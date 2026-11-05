@@ -1,0 +1,4 @@
+# Captured: 2026-11-05T16:13:06+09:00
+# Run ID: 20261105161306346
+PS> docker run -d --name codyssey-volume-one-20261105161306346 -v codyssey-practice-volume-20261105161306346:/data alpine:3.20 sleep 120
+2903dec3708b4ab48375cd31434e3bb830655ea1be00d8408189e9348bce63a9

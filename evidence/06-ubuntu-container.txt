@@ -1,0 +1,4 @@
+# Captured: 2026-11-05T16:13:06+09:00
+# Run ID: 20261105161306346
+PS> docker run -d --name codyssey-ubuntu-20261105161306346 ubuntu:24.04 sleep 120
+becbb05cb219e96793fc0218e9af570edc93e334cc6d8171196515b116903c8c

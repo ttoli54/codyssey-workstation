@@ -1,0 +1,4 @@
+﻿status: completed
+run-id: 20261105161306346
+captured-at: 2026-11-05T16:13:06+09:00
+message: all evidence commands completed successfully

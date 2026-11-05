@@ -1,0 +1,15 @@
+# Captured: 2026-11-05T16:13:06+09:00
+# Run ID: 20261105161306346
+PS> git --version; git config --get user.name; git config --get init.defaultBranch; git remote -v; git log --oneline --decorate -5
+git version: git version 2.56.0.windows.4
+user.name: missing
+user.email: redacted
+init.defaultBranch: master
+branch: codex/preassessment-evidence
+origin	https://github.com/ttoli54/codyssey-workstation.git (fetch)
+origin	https://github.com/ttoli54/codyssey-workstation.git (push)
+8d44358 (HEAD -> codex/preassessment-evidence, origin/main, origin/HEAD, main) Update README evidence links
+9a89547 Merge remote main and preserve workstation files
+4f278ed Fix backup files and add volume persistence evidence
+ce2c8de Update README.md
+17ff479 Update README.md

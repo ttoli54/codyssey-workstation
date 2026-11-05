@@ -1,0 +1,38 @@
+# Captured: 2026-11-05T16:13:06+09:00
+# Run ID: 20261105161306346
+PS> docker build -t my-web:1.0 .
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 113B 0.1s done
+#1 DONE 0.1s
+
+#2 [internal] load metadata for docker.io/library/nginx:latest
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B 0.0s done
+#3 DONE 0.1s
+
+#4 [internal] load build context
+#4 transferring context: 32B 0.1s done
+#4 DONE 0.1s
+
+#5 [1/2] FROM docker.io/library/nginx:latest@sha256:5ab5b0b01097420873a3f3330f44248e34a3c2a3e8d5ee30658aeae8cb7435da
+#5 resolve docker.io/library/nginx:latest@sha256:5ab5b0b01097420873a3f3330f44248e34a3c2a3e8d5ee30658aeae8cb7435da
+#5 resolve docker.io/library/nginx:latest@sha256:5ab5b0b01097420873a3f3330f44248e34a3c2a3e8d5ee30658aeae8cb7435da 0.1s done
+#5 DONE 0.1s
+
+#6 [2/2] COPY index.html /usr/share/nginx/html/index.html
+#6 CACHED
+
+#7 exporting to image
+#7 exporting layers 0.0s done
+#7 exporting manifest sha256:7d077f082336da39bcae179ec5301b10626eea4ff04ea6516dd0eae5615e096d 0.0s done
+#7 exporting config sha256:35a1671247fee5de676d9054b65234f287cceb8e3774ea338dac3e1d622f7fd7 done
+#7 exporting attestation manifest sha256:d8df3d1714d2e3e4478b8cf40c8af2b4527331d1b86dac8589f95f34042758eb
+#7 exporting attestation manifest sha256:d8df3d1714d2e3e4478b8cf40c8af2b4527331d1b86dac8589f95f34042758eb 0.1s done
+#7 exporting manifest list sha256:712be0025a122097d9e7e1ed69171e142b781a0952b1602afc089ad42a172fcc 0.1s done
+#7 naming to docker.io/library/my-web:1.0 0.0s done
+#7 unpacking to docker.io/library/my-web:1.0 0.1s done
+#7 DONE 0.5s

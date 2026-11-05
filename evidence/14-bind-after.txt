@@ -1,0 +1,4 @@
+# Captured: 2026-11-05T16:13:06+09:00
+# Run ID: 20261105161306346
+PS> curl.exe -sS --fail-with-body http://localhost:8081
+<h1>bind-after</h1>

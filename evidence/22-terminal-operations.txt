@@ -1,0 +1,9 @@
+# Captured: 2026-11-05T16:13:06+09:00
+# Run ID: 20261105161306346
+PS> pwd; Get-ChildItem -Force; New-Item; Set-Content; New-Item (empty); Copy-Item; Move-Item; Rename-Item; Get-Content; Remove-Item
+PWD: <repo-root>
+After create: empty.txt, source.txt
+After copy/move/rename: empty.txt, renamed.txt, source.txt
+Content check: cli-content
+
+After delete: empty.txt, source.txt

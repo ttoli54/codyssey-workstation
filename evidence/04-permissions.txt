@@ -1,0 +1,12 @@
+# Captured: 2026-11-05T16:13:06+09:00
+# Run ID: 20261105161306346
+PS> docker run --rm ubuntu:24.04 bash -lc <permission-check>
+[before]
+drwxr-xr-x 2 root root 4096 Nov  5 07:13 permission-folder
+-rw-r--r-- 1 root root    0 Nov  5 07:13 permission-test.txt
+[after]
+drwx------ 2 root root 4096 Nov  5 07:13 permission-folder
+-rw------- 1 root root    0 Nov  5 07:13 permission-test.txt
+[mode-check]
+600
+700
