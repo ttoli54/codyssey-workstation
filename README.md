@@ -125,11 +125,35 @@ codyssey-workstation/
 
 ## 6. 실습 결과 및 증빙 자료
 
-실습 화면과 결과를 캡처한 이미지입니다.
+아래는 개발 환경 구성과 Docker 실습 과정에서 촬영한 증빙 이미지입니다.
 
-- `1.png` ~ `6.png`: 기본 개발 환경 및 Docker 실습 화면
-- `07-permission-before.png`: Linux 권한 변경 전
-- `08-permission-after.png`: Linux 권한 변경 후
+### 6-1. 기본 개발 환경 및 Docker 실습
+
+![실습 캡처 1](./1.png)
+
+![실습 캡처 2](./2.png)
+
+![실습 캡처 3](./3.png)
+
+![실습 캡처 4](./4.png)
+
+![실습 캡처 5](./5.png)
+
+![실습 캡처 6](./6.png)
+
+### 6-2. Linux 파일 권한 변경 실습
+
+**권한 변경 전**
+
+![Linux 권한 변경 전](./07-permission-before.png)
+
+**권한 변경 후**
+
+![Linux 권한 변경 후](./08-permission-after.png)
+
+### 6-3. Docker 볼륨 데이터 영속성 실습
+
+![Docker 볼륨 데이터 영속성 확인](./09-volume-persistence.png)
 
 ## 7. 마무리
 
